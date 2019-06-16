@@ -14,3 +14,8 @@ My R script, called run_analysis.R, does the following:
  - Uses descriptive activity names to name the activities in the data set
  - Appropriately labels the data set with descriptive variable names. 
  - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# R and Package Versions
+R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+dplyr package version 0.8.1
+data.table package version 1.12.2
