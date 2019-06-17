@@ -5,8 +5,8 @@ This code book is for the data set located in the tidy_Activity.txt file of this
 See the README.md file of this repository for background information on this data set.
 
 # Data
-The data file is a text file, with the first row containing the variable names
-There were 30 volunteers and 6 activities
+- The data file is a text file, with the first row containing the variable names
+- There were 30 volunteers and 6 activities
 
 # Variables
 After the first row, each row contains 79 signal measurements for a given subject and activity
