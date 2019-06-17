@@ -14,24 +14,24 @@ After the first row, each row contains 79 signal measurements for a given subjec
  - Subject: integer (1 to 30)
  - Activity: string with 6 possible values:
     - WALKING: subject was walking
-    = WALKING_UPSTAIRS: subject was walking upstairs
-    WALKING_DOWNSTAIRS: subject was walking downstairs
-    SITTING: subject was sitting
-    STANDING: subject was standing
-    LAYING: subject was laying
+    - WALKING_UPSTAIRS: subject was walking upstairs
+    - WALKING_DOWNSTAIRS: subject was walking downstairs
+    - SITTING: subject was sitting
+    - STANDING: subject was standing
+    - LAYING: subject was laying
 
 # Transformations 
 The zip file containing the source data is located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 The following transformations were applied to the source data:
-  The training and test sets were merged to create one data set.
-  The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std were extracted for each measurement, and the others were discarded.
-  The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
-  The variable names were replaced with descriptive variable names using the following set of rules: 
-    Special characters (i.e. (, ), and -) were removed
-    The initials 'f' and 't' were expanded to frequencyDomain and timeDomain respectively.
-    Acc, Gyro, Mag, Freq, stddev and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, and StandardDeviation respectively.
-    Replaced BodyBody with Body.
+  - The training and test sets were merged to create one data set.
+  - The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std were extracted for each measurement, and the others were discarded.
+  - The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
+  - The variable names were replaced with descriptive variable names using the following set of rules: 
+   - Special characters (i.e. (, ), and -) were removed
+   - The initials 'f' and 't' were expanded to frequencyDomain and timeDomain respectively.
+   - Acc, Gyro, Mag, Freq, stddev and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, and StandardDeviation respectively.
+   - Replaced BodyBody with Body.
 
 # Average of measurements 
   All measurements are floating-point values, normalised and bounded within [-1,1].
