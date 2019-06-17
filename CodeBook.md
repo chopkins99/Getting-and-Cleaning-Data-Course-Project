@@ -28,10 +28,10 @@ The following transformations were applied to the source data:
   - The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std were extracted for each measurement, and the others were discarded.
   - The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
   - The variable names were replaced with descriptive variable names using the following set of rules: 
-   - Special characters (i.e. (, ), and -) were removed
-   - The initials 'f' and 't' were expanded to frequencyDomain and timeDomain respectively.
-   - Acc, Gyro, Mag, Freq, stddev and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, and StandardDeviation respectively.
-   - Replaced BodyBody with Body.
+    - Special characters (i.e. (, ), and -) were removed
+    - The initials 'f' and 't' were expanded to frequencyDomain and timeDomain respectively.
+    - Acc, Gyro, Mag, Freq, stddev and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, and StandardDeviation respectively.
+    - Replaced BodyBody with Body.
 
 # Average of measurements 
   All measurements are floating-point values, normalised and bounded within [-1,1].
