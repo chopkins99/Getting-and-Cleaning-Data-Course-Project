@@ -1,6 +1,6 @@
 # Code book for Getting and Cleaning Data course project
 
-The data set this code book pertains to is located in the tidy_Activity.txt file of this repository.
+This code book is for the data set located in the tidy_Activity.txt file of this repository.
 
 See the README.md file of this repository for background information on this data set.
 
