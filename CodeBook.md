@@ -33,7 +33,7 @@ The following transformations were applied to the source data:
     Acc, Gyro, Mag, Freq, stddev and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, and StandardDeviation respectively.
     Replaced BodyBody with Body.
 
-#Average of measurements 
+# Average of measurements 
   All measurements are floating-point values, normalised and bounded within [-1,1].
   Prior to normalisation, acceleration measurements (variables containing Accelerometer) were made in g's (9.81 m.s⁻²) and gyroscope measurements (variables containing Gyroscope) were made in radians per second (rad.s⁻¹).
   Magnitudes of three-dimensional signals (variables containing Magnitude) were calculated using the Euclidean norm.
